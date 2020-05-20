@@ -1,0 +1,1 @@
+alert('Witam szanownych obserwatorów');
