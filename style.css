@@ -1,5 +1,9 @@
 body{
     background: #EAEBED;
+
+}
+.picture {
+    border-radius: 250px;
 }
 
 .about-me {
