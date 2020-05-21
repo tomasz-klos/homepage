@@ -3,8 +3,12 @@
 
 }
 
-.navigation {
+.header {
     background: rgb(204, 207, 207);
+}
+
+.navigation {
+
 }
 
 .navigation__link {
@@ -16,6 +20,9 @@
 }
 
 .main {
+    max-width: 400px;
+    margin: 0 auto;
+
 
 }
 
@@ -29,8 +36,7 @@
 }
 
 .about-me__image {
-   
-    border-radius: 250px;
+   border-radius: 270px;
 }
 
 .about-me__description {
@@ -117,6 +123,66 @@
 
 .footer {
     color: #60656F
+}
+
+.html {
+
+}
+
+.html__title {
+
+}
+
+.html__image {
+
+}
+
+.html__subtitle {
+
+}
+
+.html__description {
+
+}
+
+.css {
+
+}
+
+.css__title {
+
+}
+
+.css__image {
+
+}
+
+.css__subtitle {
+
+}
+
+.css__description {
+
+}
+
+.js {
+
+}
+
+.js__title {
+
+}
+
+.js__image {
+
+}
+
+.js__subtitle {
+
+}
+
+.js__description {
+
 }
 
 

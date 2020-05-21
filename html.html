@@ -7,9 +7,9 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body>
-    <header class="navigation">
-      <nav>
+  <body class="body">
+    <header class="header">
+      <nav class="navigation">
           <a class="navigation__link" href="index.html">Strona Główna</a>
           <a class="navigation__link" href="html.html">HTML</a>
           <a class="navigation__link" href="css.html">CSS</a>
@@ -19,24 +19,25 @@
       </nav>
     </header>
 
-    <main>
-      <header id="top">
-        <h1>HTML</h1>
-      </header>
+    <main class="main">
+      <section class="html">
+         <h1 class="html__title">Język HTML</h1>
 
-      <img src="html.png" alt="html" />
+         <img 
+           class="html__image"
+           src="html.png"
+           alt="język html" />
 
-      <section>
-        <h2>Kim jestem?</h2>
+         <h2 class="html__subtitle">Kim jestem?</h2>
 
-        <p>
+         <p class="html__description">
           Jestem początkującym odkrywcą sztuki <i>frontendu.</i><br />
 
           Jest to mój pierwszy projekt, ale mam nadzieję, że wyjdzie kozacko.
-        </p>
+         </p>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       Strona domowa Tomasza Kłos, wszystkie treści są efektem mojego treningu.
       <a href="#top">Wróć na górę</a>
     </footer>
