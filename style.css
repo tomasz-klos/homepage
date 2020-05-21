@@ -1,33 +1,123 @@
-body{
+.body {
     background: #EAEBED;
 
 }
-.picture {
-    border-radius: 250px;
+
+.navigation {
+    background: rgb(204, 207, 207);
+}
+
+.navigation__link {
+    
+}
+
+.navigation__title {
+
+}
+
+.main {
+
 }
 
 .about-me {
     color: #60656F;
 }
 
-.top-header {
-    color: #006989;
+.about-me__header {
+    color: #006989
+
 }
 
-.red-header {
+.about-me__image {
+   
+    border-radius: 250px;
+}
+
+.about-me__description {
+
+}
+
+.frontend {
+
+}
+
+.frontend__title {
     color: #279AF1;
 
-}
-
-.think-about {
-    color: #01A7C2;
 
 }
 
-nav a {
-    color: #26547C;
+.frontend_article {
+
 }
 
-.header {
-    background: rgb(204, 207, 207);
+.frontend__subtitle {
+    color: #01A7C2
 }
+
+.frontend__description {
+
+}
+
+.frontend__article-2 {
+
+}
+
+.frontend__subtitle-2 {
+
+}
+
+.frontend__description-2 {
+
+}
+
+.frontend-road {
+
+}
+
+.frontend-road__title {
+
+}
+
+.frontend-road__article {
+
+}
+
+.frontend-road__subtitle {
+
+}
+
+.frontend-road__description {
+
+}
+
+.frontend-road__article-2 {
+
+}
+
+.frontend-road__subtitle-2 {
+
+}
+
+.frontend-road__description-2 {
+
+}
+
+.frontend-road__article-3 {
+
+}
+
+.frontend-road__subtitle-3 {
+
+}
+
+.frontend-road__description-3 {
+
+}
+
+.footer {
+    color: #60656F
+}
+
+
+
