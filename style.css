@@ -1,10 +1,20 @@
 .body {
     background: #EAEBED;
+    margin: 10px;
 
 }
 
 .header {
-    background: rgb(204, 207, 207);
+    background: #cccfcf;
+    padding: 17px;
+    margin-bottom: 30px;
+    max-height: 400px;
+    border: 1px solid #315ba8;
+
+
+
+
+
 }
 
 .navigation {
@@ -12,76 +22,74 @@
 }
 
 .navigation__link {
+    padding-left: 60px;
+    color: #1c72ac;
+    font-family: monospace;
+    font-size: 15px;
+
     
 }
 
-.navigation__title {
-
-}
-
 .main {
-    max-width: 400px;
+    max-width: 800px;
     margin: 0 auto;
 
 
 }
 
+.main__title {
+    margin: 20px 0;
+    text-align: right;
+    color: #315ba8;
+    font-family: sans-serif;
+
+
+}
+
 .about-me {
-    color: #60656F;
+    background: #cccfcf;
+    width: 800px;
+    height: 350px;
+    border: 1px solid #a5a3a322;
+    
 }
 
 .about-me__header {
-    color: #006989
+    text-align: right;
+    color: #315ba8;
+    position: relative;
+    top: 10%;
 
 }
 
 .about-me__image {
-   border-radius: 270px;
+    border-radius: 270px;
+    width: 350px;
+    height: 350px;
+    float: right;
+    display: block;
+    margin-left: 10px;
 }
 
 .about-me__description {
+    position: relative;
+    top: 20%;
+    text-align: right;
+    color: #22333B;
 
 }
 
-.frontend {
 
-}
-
-.frontend__title {
-    color: #279AF1;
-
-
-}
-
-.frontend_article {
-
-}
-
-.frontend__subtitle {
-    color: #01A7C2
-}
-
-.frontend__description {
-
-}
-
-.frontend__article-2 {
-
-}
-
-.frontend__subtitle-2 {
-
-}
-
-.frontend__description-2 {
-
-}
 
 .frontend-road {
+    margin: 40px 0;
+    width: 800px;
 
 }
 
 .frontend-road__title {
+    text-align: center;
+    color: #315ba8;
 
 }
 
@@ -94,35 +102,33 @@
 }
 
 .frontend-road__description {
+    color: #22333B;
+
 
 }
 
-.frontend-road__article-2 {
-
+.frontend-road__article--first {
+    border-left: 4px solid #1c72ac;
+    padding-left: 5px;
 }
 
-.frontend-road__subtitle-2 {
-
+.frontend-road__article--second {
+    border-left: 4px solid #fa0505;
+    padding-left: 5px;
 }
 
-.frontend-road__description-2 {
-
-}
-
-.frontend-road__article-3 {
-
-}
-
-.frontend-road__subtitle-3 {
-
-}
-
-.frontend-road__description-3 {
-
+.frontend-road__article--third {
+    border-left: 4px solid #f804c3;
+    padding-left: 5px;
 }
 
 .footer {
-    color: #60656F
+    background: #cccfcf;
+    font-family: monospace;
+    text-align: center;
+    color: #1c72ac;
+    padding: 20px;
+
 }
 
 .html {
@@ -175,6 +181,11 @@
 
 .js__image {
 
+}
+
+.header__fb {
+    position: fixed;
+    top: 100px;
 }
 
 .js__subtitle {
