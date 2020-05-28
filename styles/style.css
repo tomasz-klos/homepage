@@ -1,6 +1,5 @@
 .body {
-    background: #EAEBED;
-    margin: 10px;
+    background: linear-gradient(0deg, rgba(180,182,186,1) 0%, rgba(217,217,219,1) 50%, rgba(234,235,237,1) 86%, rgba(234,235,237,1) 99%);
 
 }
 
@@ -10,10 +9,6 @@
     margin-bottom: 30px;
     max-height: 400px;
     border: 1px solid #315ba8;
-
-
-
-
 
 }
 
@@ -201,10 +196,13 @@
 }
 
 .js__title {
+    text-align: center;
 
 }
 
 .js__image {
+    position: relative;
+    left: 110px;
 
 }
 

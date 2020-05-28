@@ -4,29 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tomasz Kłos</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body class="body">
     <header class="header" id="top">
       <nav class="navigation">
-        <a class="navigation__link" href="index.html"><b>Strona Główna</b></a>
-        <a class="navigation__link" href="html.html"> HTML</a>
-        <a class="navigation__link" href="css.html">CSS</a>
-        <a class="navigation__link" href="javascript.html">JavaScript</a>
+        <a class="navigation__link" href="pages/index.html"><b>Strona Główna</b></a>
+        <a class="navigation__link" href="pages/html.html"> HTML</a>
+        <a class="navigation__link" href="pages/css.html">CSS</a>
+        <a class="navigation__link" href="pages/javascript.html">JavaScript</a>
       </nav>
       <a href="https://www.facebook.com/profile.php?id=100002902463490">
-        <img class="header__fb" src="fb.png" alt="ikonka facebook"
+        <img class="header__fb" src="image/fb.png" alt="ikonka facebook"
       /></a>
 
     </header>
 
     <main class="main">
 
-      <h1 class="main__title">Tomasz Kłos</h1>
+      <h1 class="main__title main_title--js"></h1>
 
       <article class="about-me">
-        <img class="about-me__image" src="dred.jpg" alt="Tomasz w dredach" />
+        <img class="about-me__image" src="image/dred.jpg" alt="Tomasz w dredach" />
         <h2 class="about-me__header">O mnie..</h2>
 
         <p class="about-me__description">
@@ -40,7 +41,7 @@
         </p>
       </article>
       <section class="frontend-road">
-        <img class="frontend-road__image" src="znacznik.png" alt="taki mały znacznik"/>
+        <img class="frontend-road__image" src="image/znacznik.png" alt="taki mały znacznik"/>
         <h2 class="frontend-road__title">Przebieg kursu tajnej magii</h2>
         <article class="frontend-road__article frontend-road__article--first">
           <h3 class="frontend-road__subtitle">Tydzień 1</h3>
@@ -81,6 +82,6 @@
       Strona domowa Tomasza Kłos, wszystkie treści są efektem mojego treningu.
       <a href="#top">Wróć na górę</a>
     </footer>
-    <script src="main.js"></script>
+    <script src="/scripts/main.js"></script>
   </body>
 </html>
