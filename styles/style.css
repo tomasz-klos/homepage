@@ -1,4 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+   
 .body {
+
     background: linear-gradient(0deg, rgba(180,182,186,1) 0%, rgba(217,217,219,1) 50%, rgba(234,235,237,1) 86%, rgba(234,235,237,1) 99%);
 
 }
