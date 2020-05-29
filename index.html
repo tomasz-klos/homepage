@@ -11,37 +11,42 @@
   <body class="body">
     <header class="header" id="top">
       <nav class="navigation">
-        <a class="navigation__link" href="pages/index.html"><b>Strona Główna</b></a>
+        <a class="navigation__link navigation__link--change" href="index.html">Strona Główna</a>
         <a class="navigation__link" href="pages/html.html"> HTML</a>
         <a class="navigation__link" href="pages/css.html">CSS</a>
         <a class="navigation__link" href="pages/javascript.html">JavaScript</a>
       </nav>
-      <a href="https://www.facebook.com/profile.php?id=100002902463490">
-        <img class="header__fb" src="image/fb.png" alt="ikonka facebook"
-      /></a>
-
     </header>
+    <div class="div-fb">
+      <a href="https://www.facebook.com/profile.php?id=100002902463490">
+        <img src="image/fb.png" alt="ikonka facebook"
+      /></a>
+    </div>
 
     <main class="main">
-
-      <h1 class="main__title main_title--js"></h1>
-
       <article class="about-me">
-        <img class="about-me__image" src="image/dred.jpg" alt="Tomasz w dredach" />
-        <h2 class="about-me__header">O mnie..</h2>
+        <img
+          class="about-me__image"
+          src="image/dred.jpg"
+          alt="Tomasz w dredach"
+        />
+        <h1 class="about-me__header">O mnie..</h1>
 
         <p class="about-me__description">
-           Cześć, jestem Tomek.Mam 22 lata, a dokładniej kończe za kilka dni.
-           Interesuję się treningiem siłowym, a konkretniej trójbojem siłowym.
-           Lubie też słuchać muzyki jak i czasem coś pograć na gitarze.
-           Jestem początkującym odkrywcą sztuki <i>frontendu.</i><br />
-          
-           Jest to mój pierwszy projekt, ale mam nadzieję, że wyjdzie kozacko.
+          Cześć, jestem Tomek.Mam 22 lata, a dokładniej kończe za kilka dni.
+          Interesuję się treningiem siłowym, a konkretniej trójbojem siłowym.
+          Lubie też słuchać muzyki jak i czasem coś pograć na gitarze. Jestem
+          początkującym odkrywcą sztuki <i>frontendu.</i><br />
 
+          Jest to mój pierwszy projekt, ale mam nadzieję, że wyjdzie kozacko.
         </p>
       </article>
       <section class="frontend-road">
-        <img class="frontend-road__image" src="image/znacznik.png" alt="taki mały znacznik"/>
+        <img
+          class="frontend-road__image"
+          src="image/znacznik.png"
+          alt="taki mały znacznik"
+        />
         <h2 class="frontend-road__title">Przebieg kursu tajnej magii</h2>
         <article class="frontend-road__article frontend-road__article--first">
           <h3 class="frontend-road__subtitle">Tydzień 1</h3>
@@ -79,9 +84,11 @@
       </section>
     </main>
     <footer class="footer">
-      Strona domowa Tomasza Kłos, wszystkie treści są efektem mojego treningu.
-      <a href="#top">Wróć na górę</a>
+      <p class="footer__text">
+        Strona domowa Tomasza Kłos, wszystkie treści są efektem mojego treningu.
+        <a href="#top">Wróć na górę</a>
+      </p>
     </footer>
-    <script src="/scripts/main.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
