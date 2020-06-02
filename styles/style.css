@@ -40,13 +40,14 @@ html {
 }
 
 .navigation__link--change {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header-div {
   grid-area: sidemenu;
   grid-row: 1 / 2;
   position: absolute;
-  right: 30px;
+  right: 20px;
 }
 
 .header-div__register {
