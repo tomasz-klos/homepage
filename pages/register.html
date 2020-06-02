@@ -17,10 +17,16 @@
         </nav>
       </header>
     <main class="main">
-      <h1>Rejestracja</h1>
-      <form class="form">
+      <div class="div-fb">
+        <a href="https://www.facebook.com/profile.php?id=100002902463490">
+          <img src="../image/fb.png" alt="ikonka facebook"
+        /></a>
+      </div>
+      <form class="form" method="POST" action="https://dev.cotenfrontend.pl">
+          <img class="form__picture" src="../image/kurs.png" alt="ikonka ludzika">
+          <h1 class="form__title">Stwórz konto</h1>
         <p>
-          <label for="userName">Nazwa Użytkownika:</label>
+          <label class="form__label" for="userName">Nazwa Użytkownika:</label>
           <input
             class="form__input"
             id="userName"
@@ -29,7 +35,7 @@
           />
         </p>
         <p>
-          <label for="password">Hasło:</label>
+          <label class="form__label" for="password">Hasło:</label>
           <input
             class="form__input"
             type="password"
@@ -39,7 +45,7 @@
           />
         </p>
         <p>
-            <label for="password">Potwierdź hasło:</label>
+            <label class="form__label" for="password">Potwierdź hasło:</label>
             <input
               class="form__input"
               type="password"
@@ -49,7 +55,7 @@
             />
           </p>
         <p>
-          <label for="phoneNumber">Numer telefonu:</label>
+          <label class="form__label" for="phoneNumber">Numer telefonu:</label>
           <input
             class="form__input"
             type="tel"
@@ -59,7 +65,7 @@
           />
         </p>
         <p>
-            <label for="email">Adres e-mail:</label>
+            <label class="form__label" for="email">Adres e-mail:</label>
             <input
               class="form__input"
               type="email"
@@ -69,19 +75,19 @@
             />
           </p>
           <p>
-              <label for="band">Płeć:</label>
+              <label class="form__label" for="band">Płeć:</label>
               <select name="band" id="band">
                   <option value="band-1">Mężczyzna</option>
                   <option value="band-2">Kobieta</option>
               </select>
           </p>
           <p>
-              <label class="label" for="aboutYou">Napisz coś o sobie</label>
+              <label class="form__label" for="aboutYou">Napisz coś o sobie</label>
               <textarea class="label__textarea" id="abotYou" name="aboutYou">Napisz coś o sobie</textarea>
           </p>
           <p>
               <fieldset>
-                  <legend>Weryfikacja</legend>
+                  <legend class="form__label">Weryfikacja</legend>
                   <label for="verification">
                   <input 
                   type="radio"
@@ -91,7 +97,7 @@
               </fieldset>
           </p>
           <p>
-              <input type="submit" id="send" name="send" value="Wyślij"/>
+              <input type="submit" id="send" name="send"/>
           </p>
       </form>
     </main>
