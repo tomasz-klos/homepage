@@ -15,7 +15,7 @@ html {
 .header {
   background: rgba(144, 50, 61, 0.733);
   padding: 17px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   min-height: 60px;
   position: fixed;
   top: 0;
@@ -30,6 +30,7 @@ html {
 
 .navigation--open {
   display: block;
+  line-height: 25px;
 }
 
 .navigation__link {
@@ -48,10 +49,6 @@ html {
 }
 
 .header-div {
-  grid-area: sidemenu;
-  grid-row: 1 / 2;
-  position: absolute;
-  right: 20px;
 }
 
 .header-div__register {
@@ -72,12 +69,6 @@ html {
 
 .main {
   width: 100%;
-  display: grid;
-  grid-template-areas: "divfb article sidemenu"
-  ". section aside"
-  ". section2 .";
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 220px 220px 700px;
   margin: 60px auto 0;
 }
 
@@ -101,8 +92,8 @@ html {
 
 .about-me__image {
   border-radius: 270px;
-  width: 350px;
-  height: 350px;
+  width: 200px;
+  height: 200px;
   float: right;
   display: block;
   margin-left: 10px;
@@ -121,8 +112,8 @@ html {
   background: #e4dedf;
   margin-bottom: 25px;
   grid-area: section;
-  grid-row-start: 4;
-  width: 800px; 
+  grid-row-start: 7;
+  width: 100%; 
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow:         3px 3px 5px 6px #ccc;
@@ -333,6 +324,8 @@ html {
 }
 
 @media (min-width: 768px) {
+  
+
   .navigation {
     display: flex;
     flex-direction: row;
@@ -386,6 +379,21 @@ html {
   .about-me {
     width: 800px;
   }
+
+  .frontent-road {
+    width: 800px;
+  }
   
+  .hamburger {
+    display: none;
+  }
+
+  .header-div {
+    grid-area: sidemenu;
+    grid-row: 1 / 2;
+    position: absolute;
+    right: 20px;
+  }
+
   
 }
