@@ -1,7 +1,7 @@
 alert('Witam szanownych obserwatorów');
 
 const firstName = "Tomasz";
-const age = 22
+const age = 22;
 
 const emptymain = document.querySelector('.frontend-road--js');
 
@@ -30,5 +30,5 @@ const hamburger = document.querySelector('.hamburger--js');
 
 hamburger.addEventListener('click', () => {
     const nav = document.querySelector('.navigation--js');
-    nav.classList.toggle('.navigation--open');
+    nav.classList.toggle('navigation--open');
 })
