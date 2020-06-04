@@ -3,7 +3,7 @@ alert('Witam szanownych obserwatorów');
 const firstName = "Tomasz";
 const age = 22
 
-const emptymain = document.querySelector('.main_title--js');
+const emptymain = document.querySelector('.frontend-road--js');
 
 emptymain.innerHTML = 'Witam i o zdrowie pytam';
 
@@ -25,3 +25,10 @@ function greet(firstName, age) {
 }
 
 greet(firstName, age);
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('.navigation--open');
+})
