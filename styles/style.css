@@ -140,6 +140,10 @@ html {
   color: #22333b;
 }
 
+.frontend-road__subtitle::before {
+  content: "---";
+}
+
 .frontend-road__description {
   color: #440D0F;
   line-height: 25px;
